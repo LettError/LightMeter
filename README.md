@@ -28,7 +28,7 @@ Drag the tool over parts of a glyph to see the gray levels. The number in the bl
 </tr>
 </table>
 
-Airy disk diameter data from http://voi.opt.uh.edu/1_Roorda_OpticPrinciples.pdf
+Airy disk diameter data from Review of Basic Principles in Review of Basic Principles in Optics, Wavefront and Wavefront Error by Austin Roorda, Ph.D. University of California, Berkeley. http://roorda.vision.berkeley.edu
 
 ## To do
 * wire up sliders for eye distance, typesize and pupil size.
