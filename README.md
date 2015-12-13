@@ -5,7 +5,7 @@ A tool for RoboFont for calculating gray levels at any point in a glyph.
 
 Drag the tool over parts of a glyph to see the gray levels. The number in the blue box is a percentage.
 
-* Airy disk blurring is caused by diffraction, independent of focus.
+* Airy disk blurring is caused by diffraction, independent of focus. Other factors also contribute.
 * This blurring is small, but still typographically significant.
 * This code uses its own convolution kernel. It does not generate or process a bitmap. 
 * Some tools for calculating the diameter of the Airy disk are in scaleTools.py
