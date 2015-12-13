@@ -11,7 +11,8 @@ Drag the tool over parts of a glyph to see the gray levels. The number in the bl
 * Some tools for calculating the diameter of the Airy disk are in scaleTools.py
 
 ## Example
-> 8 pt type, at 40 cm, the angular size for the em is 24.26' arcminutes
+
+Suppose we are looking at 8 pt type from 40 cm, the angular size for the em is 24.26' arcminutes. [See on sizecalc.com](http://sizecalc.com/#distance=400millimeters&physical-size=8points&perceived-size-units=arcminutes). Also suppose the em for this font is 1000 units.
 
 <table>
 <tr>
