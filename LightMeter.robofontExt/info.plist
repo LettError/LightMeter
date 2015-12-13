@@ -28,9 +28,12 @@
 	<key>timeStamp</key>
 	<real>1450015215</real>
 	<key>version</key>
-	<string>1.0</string>
-	<key>repository</key>
-	<string>LettError/LightMeter</string>
+	<string>1.1</string>
+	<key>com.robofontmechanic.Mechanic</key>
+	<dict>
+		<key>repository</key>
+		<string>LettError/LightMeter</string>
+	</dict>
 	<key>extensionPath</key>
 	<string>LightMeter.roboFontExt</string>
 </dict>

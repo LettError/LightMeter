@@ -142,6 +142,8 @@ class LightMeterTool(BaseEventTool):
         
     def draw(self, scale):
         # drawBackground(self
+        if not hasattr(self, "prefs"):
+            return
         s = self.prefs['toolDiameter']    # / scale
         last = None
         if not self.pts: return
