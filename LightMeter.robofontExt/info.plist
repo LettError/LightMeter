@@ -29,5 +29,7 @@
 	<real>1450005577.7467549</real>
 	<key>version</key>
 	<string>1.0</string>
+	<key>repository</key>
+	<string>LettError/LightMeter</string>
 </dict>
 </plist>
