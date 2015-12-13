@@ -31,6 +31,14 @@ Suppose we are looking at 8 pt type from 40 cm, the angular size for the em is 2
 
 Airy disk diameter data from Review of Basic Principles in Review of Basic Principles in Optics, Wavefront and Wavefront Error by Austin Roorda, Ph.D. University of California, Berkeley. http://roorda.vision.berkeley.edu
 
+## Controls
+* arrow up: increase diameter
+* arrow down: decrease diameter
+* c: clear trail
+* t: toggle trail
+* p: toggle grid
+* i: invert
+
 ## To do
 * wire up sliders for eye distance, typesize and pupil size.
 * add support for non-circular kernels. 
