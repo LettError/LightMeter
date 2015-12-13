@@ -10,8 +10,6 @@ Drag the tool over parts of a glyph to see the gray levels. The number in the bl
 * This code uses its own convolution kernel. It does not generate or process a bitmap. 
 * Some tools for calculating the diameter of the Airy disk are in scaleTools.py
 
-Airy disk diameter data from http://voi.opt.uh.edu/1_Roorda_OpticPrinciples.pdf
-
 ## Example
 > 8 pt type, at 40 cm, the angular size for the em is 24.26' arcminutes
 
@@ -29,6 +27,8 @@ Airy disk diameter data from http://voi.opt.uh.edu/1_Roorda_OpticPrinciples.pdf
 <td> 1</td><td>4.494</td><td>185.28</td>
 </tr>
 </table>
+
+Airy disk diameter data from http://voi.opt.uh.edu/1_Roorda_OpticPrinciples.pdf
 
 ## To do
 * wire up sliders for eye distance, typesize and pupil size.
