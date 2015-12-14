@@ -9,6 +9,10 @@ from defconAppKit.windows.baseWindow import BaseWindowController
 from gaussTools import *
 import vanilla
 
+from mojo.extensions import ExtensionBundle
+shapeBundle = ExtensionBundle("LightMeter")
+toolbarIcon = shapeBundle.get("LightMeterButton")
+
 """
 
 
@@ -342,6 +346,11 @@ class LightMeterTool(BaseEventTool):
         
     def getToolbarTip(self):
         return 'LightMeter'
+
+    def getToolbarIcon(self):
+        ## return the toolbar icon
+        return toolbarIcon
+
     
 p = LightMeterTool()
 installTool(p)
