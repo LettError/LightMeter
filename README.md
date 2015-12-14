@@ -33,7 +33,7 @@ Suppose we are looking at 8 pt type from 40 cm, the angular size for the em is 2
 Airy disk diameter data from Review of Basic Principles in Review of Basic Principles in Optics, Wavefront and Wavefront Error by Austin Roorda, Ph.D. University of California, Berkeley. http://roorda.vision.berkeley.edu.
 
 ## So what does it mean?
-These numbers can be an indication about the physical limits of vision. As these calculations seem to show, letterforms at reading size and distance are at a scale where this kind of blurring is significant.
+These numbers can be an indication about the physical limits of vision. As these calculations seem to show, letterforms at reading size and distance are at a scale where this kind of blurring is significant. This tool might assist thinking about the letterforms and what they should do. What's the weight in a stem, really? What happens in a counter when the radius changes? How dark is this margin? Etc.
 
 ## Controls
 * arrow up: increase diameter
