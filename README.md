@@ -9,6 +9,7 @@ Drag the tool over parts of a glyph to see the gray levels. The number in the bl
 * This blurring is small, but still typographically significant.
 * This code uses its own convolution kernel. It does not generate or process a bitmap. 
 * Some tools for calculating the diameter of the Airy disk are in scaleTools.py
+* For each measurement the tool has to do a fair number of calculations. Works fine on a Mid 2014 MacBook Pro, but might be slower on older machines. Increase the chunkSize in the source if necessary.
 
 ## Example
 
