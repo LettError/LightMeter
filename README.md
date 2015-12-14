@@ -38,6 +38,8 @@ These numbers can be an indication about the physical limits of vision. As these
 ## Controls
 * arrow up: increase diameter
 * arrow down: decrease diameter
+* command + arrow up: increase grid size
+* command + arrow dow: decrease grid size
 * c: clear trail
 * t: toggle trail
 * p: toggle grid
