@@ -5,7 +5,7 @@ A tool for RoboFont for calculating gray levels at any point in a glyph.
 
 Drag the tool over parts of a glyph to see the gray levels. The number in the blue box is a percentage.
 
-* Airy disk blurring is caused by diffraction, independent of focus. Other factors also contribute.
+* Airy disk blurring is caused by diffraction in the eye. It is independent of focus, other factors also contribute, these are not part of this tool.
 * This blurring is small, but still typographically significant.
 * This code uses its own convolution kernel. It does not generate or process a bitmap. 
 * Some tools for calculating the diameter of the Airy disk are in scaleTools.py
@@ -16,7 +16,7 @@ Suppose we are looking at 8 pt type from 40 cm, the angular size for the em is 2
 
 <table>
 <tr>
-<td>Pupilsize (mm)</td><td>Airy disc diameter (arcminutes)</td><td>(units per em * angular size Airy diameter) / angular size Em, em units</td>
+<td>Pupilsize (mm)</td><td>Airy disc diameter (arcminutes)</td><td>(upm * angular size Airy diameter) / angular size em (em units)</td>
 </tr>
 
 <tr>
@@ -32,7 +32,7 @@ Suppose we are looking at 8 pt type from 40 cm, the angular size for the em is 2
 Airy disk diameter data from Review of Basic Principles in Review of Basic Principles in Optics, Wavefront and Wavefront Error by Austin Roorda, Ph.D. University of California, Berkeley. http://roorda.vision.berkeley.edu.
 
 ## So what does it mean?
-All eyes are different. These numbers can be indications about the physical limits of the letterforms.
+These numbers can be an indication about the physical limits of vision. As these calculations seem to show, letterforms at reading size and distance are at a scale where this kind of blurring is significant.
 
 ## Controls
 * arrow up: increase diameter
