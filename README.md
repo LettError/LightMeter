@@ -12,11 +12,11 @@ Drag the tool over parts of a glyph to see the gray levels. The number in the bl
 
 ## Example
 
-Suppose we are looking at 8 pt type from 40 cm, the angular size for the em is 24.26' arcminutes. [See on sizecalc.com](http://sizecalc.com/#distance=400millimeters&physical-size=8points&perceived-size-units=arcminutes). Also suppose the em for this font is 1000 units.
+Suppose we are looking at 8 pt type from 40 cm, the angular size for the em is 24.26' arcminutes. [See on sizecalc.com](http://sizecalc.com/#distance=400millimeters&physical-size=8points&perceived-size-units=arcminutes). Also suppose the em for this font is 1000 units. 
 
 <table>
 <tr>
-<td>Pupilsize (mm)</td><td>Airy disc diameter (arcminutes)</td><td>em units</td>
+<td>Pupilsize (mm)</td><td>Airy disc diameter (arcminutes)</td><td>(units per em * angular size Airy diameter) / angular size Em, em units</td>
 </tr>
 
 <tr>
@@ -29,7 +29,10 @@ Suppose we are looking at 8 pt type from 40 cm, the angular size for the em is 2
 </tr>
 </table>
 
-Airy disk diameter data from Review of Basic Principles in Review of Basic Principles in Optics, Wavefront and Wavefront Error by Austin Roorda, Ph.D. University of California, Berkeley. http://roorda.vision.berkeley.edu
+Airy disk diameter data from Review of Basic Principles in Review of Basic Principles in Optics, Wavefront and Wavefront Error by Austin Roorda, Ph.D. University of California, Berkeley. http://roorda.vision.berkeley.edu.
+
+## So what does it mean?
+All eyes are different. These numbers can be indications about the physical limits of the letterforms.
 
 ## Controls
 * arrow up: increase diameter
