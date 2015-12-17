@@ -289,6 +289,15 @@ class LightMeterTool(BaseEventTool):
             self.getKernel()
             self.calcSample(self.lastPoint)
             self.storePrefs()
+        elif option:
+            # change the chunk size
+            if arrows['left']:
+                self.prefs['chunkSize'] += 1
+            elif arrows['right']:
+                self.prefs['chunkSize'] = max(4, min(40, self.prefs['chunkSize'] - 1))
+            self.getKernel()
+            self.calcSample(self.lastPoint)
+            self.storePrefs()
         else:
             self.isResizing = True
             if arrows['up']:
