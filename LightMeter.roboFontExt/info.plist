@@ -28,11 +28,13 @@
 	<key>timeStamp</key>
 	<real>1450015215</real>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>com.robofontmechanic.Mechanic</key>
 	<dict>
 		<key>repository</key>
 		<string>LettError/LightMeter</string>
+		<key>summary</key>
+		<string>A tool for calculating gray levels at any point in a glyph.</string>
 	</dict>
 	<key>extensionPath</key>
 	<string>LightMeter.roboFontExt</string>

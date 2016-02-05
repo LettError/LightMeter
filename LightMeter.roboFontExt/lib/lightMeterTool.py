@@ -340,7 +340,7 @@ class LightMeterTool(BaseEventTool):
         nsPathObject =  self.getGlyph().getRepresentation("defconAppKit.NSBezierPath")
         for pos, val in self.kernel.items():
             thisPos = samplePoint[0]+pos[0]*self.prefs['chunkSize'], samplePoint[1]+pos[1]*self.prefs['chunkSize']
-            a = math.atan2(pos[0], pos[1])
+            #a = math.atan2(pos[0], pos[1])
             if thisPos not in self._insides:
                 self._insides[thisPos] = nsPathObject.containsPoint_(thisPos)
             if not self._insides[thisPos]:
