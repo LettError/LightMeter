@@ -45,6 +45,11 @@ These numbers can be an indication about the physical limits of vision. As these
 * p: toggle grid
 * i: invert
 
+## Install
+
+* 1 easy step from <a href="http://www.robofontmechanic.com">RoboFontMechanic</a>
+
 ## To do
 * wire up sliders for eye distance, typesize and pupil size.
 * add support for non-circular kernels. 
+
