@@ -363,4 +363,3 @@ class LightMeterTool(BaseEventTool):
     
 p = LightMeterTool()
 installTool(p)
-setActiveEventTool('LightMeterTool')
