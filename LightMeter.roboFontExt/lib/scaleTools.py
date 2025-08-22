@@ -1,5 +1,4 @@
-import math 
-
+import math
 
 """
 
@@ -53,13 +52,13 @@ def pupilSizeToAiryDiscRadius(pupilSize):
     for i in range(1, len(AiryDiscRadius_pupilSize)-1, 1):
         current = AiryDiscRadius_pupilSize[i]
         next = AiryDiscRadius_pupilSize[i+1]
-        #print current[1], pupilSize, next[1]
+        #print(current[1], pupilSize, next[1])
         if current[1] <= pupilSize <= next[1]:
             factor = (pupilSize-current[1])/(next[1]-current[1])
             return current[0]+factor*(next[0]-current[0])
             
-print "pupilSizeToAiryDiscRadius", pupilSizeToAiryDiscRadius(8)
-print "pupilSizeToAiryDiscRadius", pupilSizeToAiryDiscRadius(1)
+print("pupilSizeToAiryDiscRadius", pupilSizeToAiryDiscRadius(8))
+print("pupilSizeToAiryDiscRadius", pupilSizeToAiryDiscRadius(1))
 
 def distanceToAngular(eyeDistance, fontSize):
     """
@@ -70,23 +69,23 @@ def distanceToAngular(eyeDistance, fontSize):
     """
     pt_mm = 0.352777778
     em_mm = (fontSize * pt_mm)
-    print "em mm", em_mm
+    print("em mm", em_mm)
     t = em_mm/eyeDistance
     return math.atan(t) * 60
 
 def pupilSizeEyeDistanceFontSizeUnitsPerEmToAiryDiameterInEm(pupilSize, eyeDistance, fontSize, unitsPerEm):
     angularSize = distanceToAngular(eyeDistance, fontSize)
-    print "eyeDistance", eyeDistance
-    print "angularSize", math.degrees(angularSize)
-    print "fontSize", fontSize
+    print("eyeDistance", eyeDistance)
+    print("angularSize", math.degrees(angularSize))
+    print("fontSize", fontSize)
     airyDiameter = 2 * pupilSizeToAiryDiscRadius(pupilSize)
-    print "airyDiameter", airyDiameter
+    print("airyDiameter", airyDiameter)
     airyFraction = unitsPerEm * airyDiameter/math.degrees(angularSize)
-    print airyFraction
+    print(airyFraction)
     
 
 a = distanceToAngular(400, 8)
-print 'aa', math.degrees(a)
+print('aa', math.degrees(a))
 
 
 pupilSize = 2
